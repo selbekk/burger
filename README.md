@@ -4,7 +4,7 @@ Burger is an open sourced and community based app for rating and finding tasty h
 
 We're currently getting set up, so please hold on while we get the basics set up.
 
-# We love meaty stacks.
+## We love meaty stacks.
 
 We're going to build our app as a web application based on React, Browserify, ES6/7 and all that good stuff. The backend will
 be based on Node and other cool technologies. Very excite.
