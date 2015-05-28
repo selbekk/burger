@@ -2,7 +2,7 @@
 
 Burger is an open sourced and community based app for rating and finding tasty hamburgers. Or cheeseburgers.
 
-We're currently getting set up, so please hold on while we get the basics set up.
+We're currently getting set up, so please hold on while we get the basics together.
 
 ## We love meaty stacks.
 
