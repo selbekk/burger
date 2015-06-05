@@ -1,28 +1,49 @@
 .main-header {
     background-color: @color-bg-red-dark;
     color: white;
-    padding: 10px 0;
 }
 
 .main-header-headings {
     display: inline-block;
-    font-family: @main-font;
-    font-size: 350%;
+    font-size: 2rem;
     text-transform: uppercase;
 
     .site-name {
         color: @color-text-light;
         display: inline-block;
+        font-family: @logo-font;
         font-weight: 900;
     }
 
     .page-name {
         color: @color-text-dark;
-        font-weight: lighter;
         display: inline-block;
+        font-family: @regular-font;
+        font-weight: lighter;
     }
 }
 
 .main-navigation {
+    display: inline-block;
     list-style-type: none;
+}
+
+.main-navigation-item {
+    display: inline-block;
+}
+
+.main-navigation-link {
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding: 1rem;
+    text-decoration: none;
+
+    transition: all .3 ease-out;
+
+    &:hover,
+    &:focus {
+        background-color: rgba(255,255,255,0.1);
+    }
 }

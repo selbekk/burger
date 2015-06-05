@@ -6,25 +6,31 @@
         <link rel="stylesheet" href="/assets/main.css">
     </head>
     <body>
-        <header class="main-header">
-            <div class="wrapper">
-                <hgroup class="main-header-headings">
-                    <h1 class="site-name">Burger</h1>
-                    <h2 class="page-name">Home</h2>
-                </hgroup>
-                <nav class="main-navigation">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
-                </nav>
+        <div class="base-container">
+            <header class="main-header">
+                <div class="wrapper">
+                    <hgroup class="main-header-headings">
+                        <h1 class="site-name">Burger</h1>
+                        <h2 class="page-name">Home</h2>
+                    </hgroup>
+                    <nav class="main-navigation">
+                        <ul>
+                            <li class="main-navigation-item">
+                                <a href="#" class="main-navigation-link">Home</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="#" class="main-navigation-link">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="main-container">
+                {{{body}}}
             </div>
-        </header>
-        <div class="main-container">
-            {{{body}}}
+            <footer class="main-footer">
+                <p>Help us create this at <a href="https://github.com/selbekk/burger">GitHub</a>.</p>
+            </footer>
         </div>
-        <footer class="main-footer">
-            <p>Help us create this at <a href="https://github.com/selbekk/burger">GitHub</a>.</p>
-        </footer>
     </body>
 </html>
