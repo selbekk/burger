@@ -13,26 +13,41 @@
     display: block;
     float: left;
     font-size: 2rem;
-    margin-right: 1rem;
     text-transform: uppercase;
+    width: 100%;
+
+    @media @mq-tablet {
+        margin-right: 1rem;
+        width: auto;
+    }
 
     .site-name {
         color: @color-text-light;
-        display: inline-block;
+        display: block;
         font-family: @logo-font;
         font-weight: 900;
+        text-align: center;
+        @media @mq-tablet {
+            display: inline-block;
+            text-align: left;
+        }
     }
 
     .page-name {
         color: @color-text-dark;
-        display: inline-block;
+        display: none;
         font-family: @regular-font;
         font-weight: lighter;
+
+        @media @mq-tablet {
+            display: inline-block;
+        }
     }
 }
 
 .main-navigation {
     display: none;
+    float: left;
     list-style-type: none;
 
     @media @mq-tablet {
