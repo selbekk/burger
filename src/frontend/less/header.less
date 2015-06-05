@@ -5,12 +5,15 @@
 
     .container {
         .m-wrap();
+        .m-clearfix();
     }
 }
 
 .main-header-headings {
-    display: inline-block;
+    display: block;
+    float: left;
     font-size: 2rem;
+    margin-right: 1rem;
     text-transform: uppercase;
 
     .site-name {
@@ -46,7 +49,7 @@
     display: block;
     font-size: 1rem;
     font-weight: 100;
-    padding: .5rem 1rem;
+    padding: .8rem 1rem;
     text-decoration: none;
 
     transition: all .3 ease-out;
