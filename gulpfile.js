@@ -5,13 +5,15 @@ var gulp = require('gulp'),
         minify: require('less-plugin-clean-css')
     },
     util = {
-        g: require('gulp-util')
+        g: require('gulp-util'),
+        plumber: require('gulp-plumber')
     };
 
 
 gulp.task('style', function() {
     util.g.log('Compiling styles...');
     gulp.src('./src/frontend/less/main.less')
+        .pipe(util.plumber())
         .pipe(less.compile({
             plugins: [
                 new less.prefix({ browsers: ["last 2 versions"] }),
