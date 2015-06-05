@@ -21,7 +21,7 @@ gulp.task('style', function() {
         .pipe(gulp.dest('./src/frontend/dist'));
 })
 
-gulp.task('watch', function() {
+gulp.task('watch', ['build'], function() {
     gulp.watch('./src/frontend/less/*.less', ['style']);
 });
 
