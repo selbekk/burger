@@ -1,0 +1,9 @@
+# Downloadable content
+node_modules
+bower_components
+
+# Generated files
+.idea/
+*.log
+.DS_Store
+
