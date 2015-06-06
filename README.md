@@ -1,5 +1,7 @@
 # This is Burger.
 
+[![Join the chat at https://gitter.im/selbekk/burger](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/selbekk/burger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Burger is an open sourced and community based app for rating and finding tasty hamburgers. Or cheeseburgers.
 
 We're currently getting set up, so please hold on while we get the basics together.
