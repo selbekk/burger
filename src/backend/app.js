@@ -1,6 +1,7 @@
 var express = require('express'),
     exphbs = require('express-handlebars'),
-    Logger = require('logbekk');
+    Logger = require('logbekk'),
+    apiRouter = require('./routers/api');
 
 var app = express(),
     log = new Logger();
@@ -10,6 +11,7 @@ app.set('view engine', 'handlebars');
 app.set('port', process.env.PORT || 4000);
 
 app.use('/assets', express.static('./../frontend/dist'));
+app.use('/api', apiRouter);
 
 app.get('/', function(req, res) {
 	res.render('index');
