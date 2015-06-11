@@ -7,3 +7,5 @@ bower_components
 *.log
 .DS_Store
 
+# Those API keys
+api.properties
