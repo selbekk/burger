@@ -1,0 +1,11 @@
+# Production keys are redacted
+# Since Yelp does not allow sharing of private API keys, you'll have to 
+# create your own for local development. You can do that at:
+#
+# https://www.yelp.com/developers
+#
+
+yelp.api.consumer.key=
+yelp.api.consumer.secret=
+yelp.api.token=
+yelp.api.token.secret=
